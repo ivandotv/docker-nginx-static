@@ -1,0 +1,3 @@
+FROM ivandotv/nginx-static
+
+ONBUILD COPY ./site/  ${NGINX_SERVER_ROOT}
