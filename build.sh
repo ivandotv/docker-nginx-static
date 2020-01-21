@@ -5,7 +5,7 @@ temp_build_dir='temp_build_dir'
 build_assets_dir='build-assets'
 username='ivandotv'
 image_name='nginx-static'
-image_name_on_build='nginx-static-onbuild'
+image_name_on_build='nginx-static:onbuild'
 build_params="$@"
 full_image_name=${username}/${image_name}
 
